@@ -164,7 +164,7 @@ Returns the first item in the collection.
 
 ```php
 $collection = new Collection(['foo', 'bar', 'baz']);
-return $collection->next();
+return $collection->first();
 // returns 'foo'
 ```
 
